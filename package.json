@@ -1,0 +1,20 @@
+{
+  "name": "Now-Native-Website",
+  "version": "5.0.1",
+  "description": "First public release of the NN Website",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-less": "~0.8.2",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-s3": "~0.2.0-alpha.3",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-includes": "~0.4.0"
+  },
+  "scripts": {
+    "build": "node -e \"require('grunt').tasks(['build']);\"",
+    "production": "node -e \"require('grunt').tasks(['production']);\""
+  },
+  "author": "freeman"
+}
