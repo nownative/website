@@ -2,7 +2,7 @@
 The new &amp; improved (yes, both!) Now Native website.
 
 # installation
-    sudo npm install
+    npm install
     npm run build
 
 ... Then direct your web server at the `./build` directory.
