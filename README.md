@@ -15,5 +15,7 @@ Then, run this in your CLI:
     key=XXXXXX secret=XXXXXX npm run production
 
 # future plans
-- Using HTML5 <template> to replace HTML pre-processing.
+- Using HTML5 `<template>` to replace HTML pre-processing.
 - Somehow replace LESS preprocessing (without switching back to native CSS 😝)
+
+I think stuff that completely runs in the browser is cool - replacing the above is currently blocked due to poor browser support (June 2015)
